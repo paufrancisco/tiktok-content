@@ -32,37 +32,50 @@ def slow_type(message, color, speed=0.05):
     sys.stdout.write(RESET)
     print()
 
-# Updated lyrics
-message1 = ("I saw her in the rightest way", COLOR_1)
-message2 = ("Looking like Anne Hathaway", COLOR_2)
-message2b = ("Laughing while she hit her pen", COLOR_3)
-message3 = ("And coughed, and coughed", COLOR_4)
-message3b = ("And then, she came up to my knees", COLOR_5)
-message4 = ("Begging, baby, would you please?", COLOR_6)
-message4b = ("Do the things you said you'd do to me, to me", COLOR_7)
-message5 = ("Oh, won't you kiss me on the mouth and love me like a sailor?", COLOR_8)
-message6 = ("And when you get a taste, can you tell me what's my flavor?", COLOR_9)
-message6b = ("I don't believe in God, but I believe that you're my savior", COLOR_10)
-message7 = ("My mom says that she's worried, but I'm covered in this favor", COLOR_1)
-message8 = ("And when we're getting dirty, I forget all that is wrong", COLOR_2)
-message9 = ("I sleep so I can see you 'cause I hate to wait so long", COLOR_3)
-message10 = ("I sleep so I can see you and I hate to wait so long", COLOR_4)
+# Updated lyrics  
+message1 = ("I saw her in the rightest way", COLOR_1)  
+message2 = ("Looking like Anne Hathaway", COLOR_2)  
+message2b = ("Laughing while she hit her pen", COLOR_3)  
+message3 = ("And coughed, and coughed", COLOR_4)  
+message3b = ("And then, she came up to my knees", COLOR_5)  
+message4 = ("Begging, baby, would you please?", COLOR_6)  
+message4b = ("Do the things you said you'd do to me, to me", COLOR_7)  
+message5 = ("Oh, won't you kiss me on the mouth and love me like a sailor?", COLOR_8)  
+message6 = ("And when you get a taste, can you tell me what's my flavor?", COLOR_9)  
+message6b = ("I don't believe in God, but I believe that you're my savior", COLOR_10)  
+message7 = ("My mom says that she's worried, but I'm covered in this favor", COLOR_1)  
+message8 = ("And when we're getting dirty, I forget all that is wrong", COLOR_2)  
+message9 = ("I sleep so I can see you 'cause I hate to wait so long", COLOR_3)  
+message10 = ("I sleep so I can see you and I hate to wait so long", COLOR_4)  
 
-# Print updated lyrics with slow typing effect
-slow_type(*message1, speed=0.07)
-slow_type(*message2, speed=0.09)
-slow_type(*message2b, speed=0.07)
-slow_type(*message3, speed=0.07)
-slow_type(*message3b, speed=0.09)
-slow_type(*message4, speed=0.11)
-slow_type(*message4b, speed=0.11)
-slow_type(*message5, speed=0.09)
-slow_type(*message6, speed=0.07)
-slow_type(*message6b, speed=0.07)
-slow_type(*message7, speed=0.07)
-slow_type(*message8, speed=0.09)
-slow_type(*message9, speed=0.07)
-slow_type(*message10, speed=0.07)
+# Print updated lyrics with slow typing effect  
+slow_type(*message1, speed=0.15)  # "I saw her in the rightest way"  
+slow_type(*message2, speed=0.15)  # "Looking like Anne Hathaway"  
+time.sleep(1.3)  # Pause for a second before continuing
+slow_type(*message2b, speed=0.12) # "Laughing while she hit her pen"  
+time.sleep(0.5)  # Pause for a second before continuing
+slow_type(*message3, speed=0.15)  # "And coughed, and coughed"  
+time.sleep(1.2)  # Pause for a second before continuing
+slow_type(*message3b, speed=0.15) # "And then, she came up to my knees"  
+slow_type(*message4, speed=0.12)  # "Begging, baby, would you please?"
+time.sleep(1.4)  # Pause for a second before continuing
+slow_type(*message4b, speed=0.15) # "Do the things you said you'd do to me, to me"  
+time.sleep(1.4)  # Pause for a second before continuing
+slow_type(*message5, speed=0.08) # "Oh, won't you kiss me on the mouth and love me like a sailor?"  
+time.sleep(0.5)  # Pause for a second before continuing
+slow_type(*message6, speed=0.08) # "And when you get a taste, can you tell me what's my flavor?"  
+time.sleep(0.5)  # Pause for a second before continuing
+slow_type(*message6b, speed=0.05) # "I don't believe in God, but I believe that you're my savior"  
+time.sleep(0.7)  # Pause for a second before continuing
+slow_type(*message7, speed=0.06) # "My mom says that she's worried, but I'm covered in this favor"  
+time.sleep(0.6)  # Pause for a second before continuing
+slow_type(*message8, speed=0.08) # "And when we're getting dirty, I forget all that is wrong"  
+time.sleep(0.6)  # Pause for a second before continuing
+slow_type(*message9, speed=0.08) # "I sleep so I can see you 'cause I hate to wait so long"  
+time.sleep(0.6)  # Pause for a second before continuing
+slow_type(*message10, speed=0.06) # "I sleep so I can see you and I hate to wait so long"  
+time.sleep(2)  # Pause for a second before continuing
+
 
 # Trigger blink effect with yellow, red, and orange after the lyrics
 while True:

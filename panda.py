@@ -80,12 +80,12 @@ guitar_thread.daemon = True  # This will exit when the main program ends
 guitar_thread.start()
 
 # Print lyrics with slow typing effect (this will run alongside the guitar blinking)
-slow_type(*message1, speed=0.04)
-slow_type(*message2, speed=0.05)
-slow_type(*message3, speed=0.06)
-slow_type(*message4, speed=0.04)
-slow_type(*message5, speed=0.04)
-slow_type(*message6, speed=0.03)
+# slow_type(*message1, speed=0.04)
+# slow_type(*message2, speed=0.05)
+# slow_type(*message3, speed=0.06)
+# slow_type(*message4, speed=0.04)
+# slow_type(*message5, speed=0.04)
+# slow_type(*message6, speed=0.03)
 
 # Keep the program running
 while True:
